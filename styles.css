@@ -34,6 +34,7 @@ body {
     width: 400px;
     margin-bottom: 10px;
     border-color: aquamarine;
+     color: white;
 }
 ::placeholder {
     color: #33fff5;
