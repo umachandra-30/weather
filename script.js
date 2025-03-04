@@ -38,8 +38,11 @@ function fetchWeather(location) {
 }
 document.addEventListener("DOMContentLoaded", function () {
     let audio = document.getElementById("bgaudio");
+    while(true)
+        {
     if (audio) { 
         audio.volume = 0.5;
         audio.play().catch(error => console.log("Autoplay blocked:", error));
     }
+        }
 });
